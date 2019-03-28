@@ -17,25 +17,27 @@
 ## => Site Settings
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : "https://igaw-ai-lab.github.io"# the base hostname & protocol for your site e.g. https://www.someone.com
+highlight_theme: tomorrow # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+url     : "https://igaw-ailab.github.io.github.io"# the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : ""# does not include hostname
-title   : "This is title"
+title   : "AI LAB
 description: > # this means to ignore newlines until "Language & timezone"
-  "this is description"
+  "IGAW 에서 다루는 모든 AD TECH 이야기"
+encoding: utf-8
+
 
 
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, default as "en"
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+lang: kr # the language of your site, default as "en"
+timezone: Asia/Seoul# see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Your Name
+  name      : AI LAB
   url       :
   avatar    : # path or url of avatar image (square)
   bio       : I am an amazing person.
@@ -84,14 +86,14 @@ toc:
 ## => Markdown Enhancements
 ##############################
 ## Mathjax
-mathjax: # false (default), true
-mathjax_autoNumber: # false (default), true
+mathjax: true # false (default), true
+mathjax_autoNumber:true # false (default), true
 
 ## Mermaid
-mermaid: # false (default), true
+mermaid:true # false (default), true
 
 ## Chart
-chart: # false (default), true
+chart: true # false (default), true
 
 
 ## => Paginate
