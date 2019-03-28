@@ -20,7 +20,7 @@ text_skin: "default" # "default" (default), "dark", "forest", "ocean", "chocolat
 highlight_theme: "tomorrow" # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : "https://igaw-ailab.github.io.github.io"# the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : ""# does not include hostname
-title :"IGAW AI-LAB"
+title : "IGAW AI-LAB"
 description: > # this means to ignore newlines until "Language & timezone"
   "IGAW 에서 다루는 모든 AD TECH 이야기"
 encoding: utf-8
